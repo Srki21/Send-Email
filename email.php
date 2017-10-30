@@ -46,12 +46,12 @@ $email->Host = 'smtp.gmail.com';
 $email->Port = 587;
 $email->SMTPAuth = true;
 $email->SMTPSecure = "tls";
-$email->Username = "srkicar21@gmail.com";
-$email->Password = "s1r2d3j4a5n6";
+$email->Username = "youremail";
+$email->Password =" your password ";
 
 //Setting for email send
 
-$email->SetFrom("srkicar21@gmail.com","Srdjan");
+$email->SetFrom("toEmail","name");
 $toName = $_GET['name'];
 $to =  $_GET['email'];
 $mess = $_GET['Message'];
